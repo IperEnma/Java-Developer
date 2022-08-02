@@ -8,8 +8,7 @@ import java.sql.*;
 public class Java_mysql {
 
     public static void main(String[] args) throws SQLException {
-        DeleteReg(7);
-        ShowReg();
+        continue;
     }
     static void InsertReg(String message, String author) throws SQLException {
         try (Connection connect = DriverManager.getConnection(
